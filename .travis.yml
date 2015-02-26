@@ -4,5 +4,7 @@ jdk:
 env:
   global:
   - TERM=dumb
+  - secure: TPAw3ZaXh+8VVNSq4Yf+bZ695lF8WUBZmjAciwQlnthMeZQnjKbvfM4bOsDt3t/Y8SISrNLt2SjoVbdtCYsEkF51t/93CWo3ebprr4fL3cFDrEac4ffsZ5yhS6aAVJLtnWw5ICBWtkkS3eW+Y2IQ516VfkKTHhwasV+klbhLGf0=
+  - secure: Q4MMciv37cM9zIN3seAL48no9gHpjlsC7/1PeKA6k4Rt7a8mn3ghBFDYJu3OtKKbWBI+LM5kWqvLR2zgF1py7SBGHutlU+y9WVoOWDo8qYgru9eHLggq+ZY/3Dv/DR4aMeAx3/EWdkOuRduv5BcGBQwhpucw69bu08TNP8M0ZUU=
 install:
 - ./gradlew clean test build publish publishBintray
